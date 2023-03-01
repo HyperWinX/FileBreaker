@@ -19,6 +19,7 @@ namespace FileBreaker
             {
                 Console.WriteLine("Usage: filebreaker [path_to_file] [percent_corrupt]");
                 Console.WriteLine("Example: filebreaker.exe C:\\Users\\Administrator\\Desktop\\file.txt 50");
+                return;
             }
             string path = args[0];
             int corruptPercent = Convert.ToInt32(args[1]);
